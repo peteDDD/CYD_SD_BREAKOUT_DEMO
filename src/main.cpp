@@ -122,7 +122,7 @@ void setup()
     digitalWrite(GPIO23, LED_OFF);
     digitalWrite(GPIO5, LED_OFF);
 
-    //ClearLEDState();
+    // clearing of LEDstate is initialized in the SLS init which calls the ui_event ClearLEDState.
 
     initRGBled();
     ChangeRGBColor(RGB_COLOR_1);
@@ -158,11 +158,6 @@ void setup()
     indev_drv.type = LV_INDEV_TYPE_POINTER;
     indev_drv.read_cb = my_touchpad_read;
     lv_indev_drv_register(&indev_drv);
-
-    /* Uncomment to create simple label */
-    // lv_obj_t *label = lv_label_create( lv_scr_act() );
-    // lv_label_set_text( label, "Hello Ardino and LVGL!");
-    // lv_obj_align( label, LV_ALIGN_CENTER, 0, 0 );
 
     ui_init();
 
