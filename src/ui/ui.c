@@ -34,13 +34,12 @@ lv_obj_t * ui_Label3;
 // SCREEN: ui_ScreenPinout
 void ui_ScreenPinout_screen_init(void);
 lv_obj_t * ui_ScreenPinout;
-lv_obj_t * ui_ImagePinout;
 void ui_event_ButtonReturn(lv_event_t * e);
 lv_obj_t * ui_ButtonReturn;
 lv_obj_t * ui_LabelReturn;
+lv_obj_t * ui_Image3;
 void ui_event____initial_actions0(lv_event_t * e);
 lv_obj_t * ui____initial_actions0;
-const lv_img_dsc_t * ui_imgset_micro_sd_sniffer_2_320_x_[1] = {&ui_img_micro_sd_sniffer_2_320_x_190_png};
 
 ///////////////////// TEST LVGL SETTINGS ////////////////////
 #if LV_COLOR_DEPTH != 16

@@ -26,3 +26,7 @@ def ReturnClickedClearStates(event_struct):
 def ReturnClickedRestoreStates(event_struct):
     return
 
+
+def ClearLEDState(event_struct):
+    return
+

@@ -47,14 +47,14 @@ extern lv_obj_t * ui_Label3;
 // SCREEN: ui_ScreenPinout
 void ui_ScreenPinout_screen_init(void);
 extern lv_obj_t * ui_ScreenPinout;
-extern lv_obj_t * ui_ImagePinout;
 void ui_event_ButtonReturn(lv_event_t * e);
 extern lv_obj_t * ui_ButtonReturn;
 extern lv_obj_t * ui_LabelReturn;
+extern lv_obj_t * ui_Image3;
 void ui_event____initial_actions0(lv_event_t * e);
 extern lv_obj_t * ui____initial_actions0;
 
-LV_IMG_DECLARE(ui_img_micro_sd_sniffer_2_320_x_190_png);    // assets\Micro SD Sniffer 2 320 x 190.png
+LV_IMG_DECLARE(ui_img_micro_sd_sniffer_2_320px_png);    // assets\Micro SD Sniffer 2 320px.png
 
 
 
